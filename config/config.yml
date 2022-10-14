@@ -1,1 +1,15 @@
-rahasia
+database:
+  driver: postgres
+  host: ec2-3-228-235-79.compute-1.amazonaws.com
+  port: 5432
+  user: ejskkxkjepmbts
+  password: 6a0c3c49009f4fdf78f92feb29161a4f891dffe9f5422a10426211da5466cc2a
+  dbname: d3has4l32b32e3
+  sslmode: require
+  schema:
+    app: app
+server:
+  port: 8081
+  env: development
+  baseurl: http://localhost:8081/
+  redirectpage: http://localhost:8081/
