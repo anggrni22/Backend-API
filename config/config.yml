@@ -9,7 +9,7 @@ database:
   schema:
     app: app
 server:
-  port: 8081
+  port: 8082
   env: development
-  baseurl: http://localhost:8081/
-  redirectpage: http://localhost:8081/
+  baseurl: http://localhost:8082/
+  redirectpage: http://localhost:8082/
