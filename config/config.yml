@@ -1,6 +1,6 @@
 database:
   driver: postgres
-  host: 34.101.152.105
+  host: 34.101.160.121
   port: 5432
   user: akrab2023
   password: a
