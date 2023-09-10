@@ -1,13 +1,13 @@
 database:
   driver: postgres
-  host: akrab-398216.akrablocal.windows.net
+  host: 34.101.160.121
   port: 5432
   user: postgres
-  password: 86f7e437faa5a7fce15d1ddcb9eaeaea377667b8
+  password: a
   dbname: akrablocal
-  sslmode: require
+  sslmode: prefer
   schema:
-    app: app
+    app: public
 server:
   port: 8082
   env: development
