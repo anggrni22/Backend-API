@@ -7,9 +7,9 @@ database:
   dbname: akrablocal
   sslmode: prefer
   schema:
-    app: app
+    app: public
 server:
-  port: 8082
+  port: 1234
   env: development
-  baseurl: http://localhost:8082/
-  redirectpage: http://localhost:8082/
+  baseurl: http://localhost:1234/
+  redirectpage: http://localhost:1234/
