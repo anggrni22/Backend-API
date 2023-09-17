@@ -2,7 +2,7 @@ database:
   driver: postgres
   host: 34.101.160.121
   port: 5432
-  user: akrab2023
+  user: postgres
   password: a
   dbname: akrablocal
   sslmode: prefer
